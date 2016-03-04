@@ -17,6 +17,11 @@ load([
 ]);
 
 /**
+ * Creates a class alias for the GEO class, to make it more usable
+ */
+class_alias('Kirby\\Geo', 'Geo');
+
+/**
  * Adds a new radius filter to all collections
  */
 collection::$filters['radius'] = function($collection, $field, $options) {
