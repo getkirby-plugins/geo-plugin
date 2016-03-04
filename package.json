@@ -1,0 +1,8 @@
+{
+  "name": "geo",
+  "description": "Kirby GEO Plugin",
+  "author": "Bastian Allgeier <mail@bastianallgeier.com>",
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "kirby-plugin"
+}
