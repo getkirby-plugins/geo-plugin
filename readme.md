@@ -17,6 +17,14 @@ geo::point([49.4883333, 8.4647222]);
 geo::point(['lat' => 49.4883333, 'lng' => 8.4647222]);
 ```
 
+Afterwards you can get the latitude and longitude values of the point like this: 
+
+```php
+$point = geo::point(49.4883333, 8.4647222);
+echo $point->lat();
+echo $point->lng();
+```
+
 ### geo::distance
 
 Returns the distance between two geo points.
