@@ -70,6 +70,22 @@ echo $mannheim->lat();
 echo $mannheim->lng();
 ```
 
+### geo::kilometersToMiles
+
+Converts kilometers into miles: 
+
+```php
+echo geo::kilometersToMiles(1000);
+```
+
+### geo::milesToKilometers
+
+Converts miles into kilometers: 
+
+```php
+echo geo::milesToKilometers(1000);
+```
+
 ## Radius Filter
 
 The plugin automatically adds a new filter for all collections, which can be used to do a radius search:
