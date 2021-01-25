@@ -1,4 +1,4 @@
-# Kirby GEO Plugin
+# Kirby 2 GEO Plugin
 
 This plugin adds basic geo search and conversion functionalities to Kirby
 
